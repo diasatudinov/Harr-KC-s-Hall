@@ -1,9 +1,8 @@
 //
 //  DailyRewardsViewModel.swift
-//  Zabka
+//  Harr KC's Hall
 //
 //
-
 
 import SwiftUI
 import Combine

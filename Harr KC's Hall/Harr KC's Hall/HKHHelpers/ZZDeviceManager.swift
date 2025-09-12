@@ -1,3 +1,10 @@
+//
+//  ZZDeviceManager.swift
+//  Harr KC's Hall
+//
+//
+
+
 import UIKit
 
 class ZZDeviceManager {

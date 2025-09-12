@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  Harr KC's Hall
 //
-//  Created by Dias Atudinov on 12.09.2025.
 //
 
 import SwiftUI

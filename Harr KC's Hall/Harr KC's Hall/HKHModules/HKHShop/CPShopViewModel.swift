@@ -1,3 +1,10 @@
+//
+//  CPShopViewModel.swift
+//  Harr KC's Hall
+//
+//
+
+
 import SwiftUI
 
 

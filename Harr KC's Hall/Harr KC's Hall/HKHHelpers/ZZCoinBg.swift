@@ -1,3 +1,10 @@
+//
+//  ZZCoinBg.swift
+//  Harr KC's Hall
+//
+//
+
+
 import SwiftUI
 
 struct ZZCoinBg: View {
@@ -5,7 +12,7 @@ struct ZZCoinBg: View {
     var height: CGFloat = ZZDeviceManager.shared.deviceType == .pad ? 100:50
     var body: some View {
         ZStack {
-            Image(.coinsBgZZ)
+            Image(.coinsBgHKH)
                 .resizable()
                 .scaledToFit()
             
