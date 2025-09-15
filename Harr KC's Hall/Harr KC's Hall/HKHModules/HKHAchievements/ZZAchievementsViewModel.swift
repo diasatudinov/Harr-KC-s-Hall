@@ -10,11 +10,11 @@ import SwiftUI
 class ZZAchievementsViewModel: ObservableObject {
     
     @Published var achievements: [NEGAchievement] = [
-        NEGAchievement(image: "achieve1ImageZZ", title: "achieve1TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve2ImageZZ", title: "achieve2TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve3ImageZZ", title: "achieve3TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve4ImageZZ", title: "achieve4TextZZ", isAchieved: false),
-
+        NEGAchievement(image: "achieve1ImageHKH", title: "achieve1TextHKH", isAchieved: false),
+        NEGAchievement(image: "achieve2ImageHKH", title: "achieve2TextHKH", isAchieved: false),
+        NEGAchievement(image: "achieve3ImageHKH", title: "achieve3TextHKH", isAchieved: false),
+        NEGAchievement(image: "achieve4ImageHKH", title: "achieve4TextHKH", isAchieved: false),
+        NEGAchievement(image: "achieve5ImageHKH", title: "achieve5TextHKH", isAchieved: false),
     ] {
         didSet {
             saveAchievementsItem()
@@ -26,7 +26,7 @@ class ZZAchievementsViewModel: ObservableObject {
         
     }
     
-    private let userDefaultsAchievementsKey = "achievementsKeyZZ"
+    private let userDefaultsAchievementsKey = "achievementsKeyHKH"
     
     func achieveToggle(_ achive: NEGAchievement) {
         guard let index = achievements.firstIndex(where: { $0.id == achive.id })

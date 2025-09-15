@@ -15,7 +15,7 @@ struct HKHMenuView: View {
     @State private var showCalendar = false
     @State private var showDailyReward = false
     
-    //    @StateObject var shopVM = CPShopViewModel()
+    @StateObject var shopVM = CPShopViewModel()
     
     var body: some View {
         
@@ -117,16 +117,16 @@ struct HKHMenuView: View {
                 //                LevelPickerView()
             }
             .fullScreenCover(isPresented: $showAchievement) {
-                //                ZZAchievementsView()
+                HKHAchievementsView()
             }
             .fullScreenCover(isPresented: $showShop) {
-                //                ZZShopView(viewModel: shopVM)
+                HKHShopView(viewModel: shopVM)
             }
             .fullScreenCover(isPresented: $showSettings) {
-                //                ZZSettingsView()
+                HKHSettingsView()
             }
             .fullScreenCover(isPresented: $showDailyReward) {
-                //                ZZDailyView()
+                HKHDailyView()
             }
     }
 }
