@@ -10,7 +10,7 @@ import SwiftUI
 struct Harr_KC_s_HallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView1()
         }
     }
 }

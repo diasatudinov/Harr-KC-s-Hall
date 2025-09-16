@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2B419B842E79DBCF00621F26 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 2B419B832E79DBCF00621F26 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2B419AE72E74601F00621F26 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B419B842E79DBCF00621F26 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 			);
 			name = "Harr KC's Hall";
 			packageProductDependencies = (
+				2B419B832E79DBCF00621F26 /* FirebaseMessaging */,
 			);
 			productName = "Harr KC's Hall";
 			productReference = 2B419AC42E745FE300621F26 /* Harr KC's Hall.app */;
@@ -108,6 +114,9 @@
 			);
 			mainGroup = 2B419ABB2E745FE300621F26;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2B419B822E79DBCF00621F26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B419AC52E745FE300621F26 /* Products */;
 			projectDirPath = "";
@@ -350,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B419B822E79DBCF00621F26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B419B832E79DBCF00621F26 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B419B822E79DBCF00621F26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2B419ABC2E745FE300621F26 /* Project object */;
 }

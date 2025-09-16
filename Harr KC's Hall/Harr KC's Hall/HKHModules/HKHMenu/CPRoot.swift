@@ -1,3 +1,10 @@
+//
+//  CPRoot.swift
+//  Harr KC's Hall
+//
+//
+
+
 import SwiftUI
 
 struct CPRoot: View {
@@ -9,7 +16,7 @@ struct CPRoot: View {
         Group {
             switch state.appState {
             case .fetch:
-                ZZLoaderView()
+                HKHLoaderView()
                 
             case .supp:
                 if let url = state.webManager.targetURL {
@@ -27,7 +34,7 @@ struct CPRoot: View {
                 }
                 
             case .final:
-                ZZMenuView()
+                HKHMenuView()
                     .onAppear {
                         AppDelegate.orientationLock = .landscape
                         setOrientation(.landscapeRight)

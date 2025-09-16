@@ -1,3 +1,10 @@
+//
+//  NetworkManager.swift
+//  Harr KC's Hall
+//
+//
+
+
 import UIKit
 import SwiftUI
 @preconcurrency import WebKit

@@ -1,3 +1,10 @@
+//
+//  AppStateManager.swift
+//  Harr KC's Hall
+//
+//
+
+
 import Foundation
 
 @MainActor

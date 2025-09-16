@@ -114,7 +114,7 @@ struct HKHMenuView: View {
                 }
             )
             .fullScreenCover(isPresented: $showGame) {
-                //                LevelPickerView()
+                HKHLevelsVIew()
             }
             .fullScreenCover(isPresented: $showAchievement) {
                 HKHAchievementsView()
